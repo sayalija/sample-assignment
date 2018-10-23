@@ -1,5 +1,8 @@
 const add=function(a,b) {
-  return a+b;
+  while (true) {
+    console.log("It's running");
+  }
+  return a-b;
 };
 
 exports.add=add;

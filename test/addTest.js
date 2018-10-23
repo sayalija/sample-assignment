@@ -2,6 +2,7 @@ const assert=require("chai").assert;
 const add=require("../src/basic.js").add;
 
 describe("add test", function() {
+  this.timeout(5000);
   it("should add 10 and 21 numbers", function() {
     assert.equal(add(10,21), 31);
   });
