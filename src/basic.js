@@ -1,7 +1,7 @@
 const add=function(a,b) {
-  // while (true) {
-  //   console.log("It's running");
-  // }
+  while (true) {
+    console.log("It's running");
+  }
   return a-b;
 };
 
